@@ -21,6 +21,7 @@ public class PaisController {
     @GetMapping("/lista")
     public List<Pais> getAllPaises() {
         return paisService.findAll();
+        
     }
     
 }
